@@ -25,5 +25,5 @@ function createChessBoard()
 			htmlText += "<div style='background-color:"+ colorName + ";width:" + unitSquareWidth + "px;height:" + unitSquareWidth + "px;float:left;'></div>" + clearLine;
 		}
 	}
-	document.getElementById("containerId").innerHTML = htmlText;  
+	document.getElementById("containerId").innerHTML = htmlText;
 }
